@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;1,700&display=swap");
+
+body {
+  font-family: "Nunito", sans-serif;
+}
+
+.container {
+  padding: 100px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.translator-input {
+  border-color: #d9dbda;
+  border-radius: 5px;
+  outline: none;
+}
+
+.translated {
+  position: relative;
+  top: 20px;
+  white-space: pre  ;
+}
+
+.translate-button {
+  position: relative;
+  top: 15px;
+}

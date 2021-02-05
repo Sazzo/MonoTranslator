@@ -17,15 +17,27 @@ body {
   border-color: #d9dbda;
   border-radius: 5px;
   outline: none;
+
+  box-sizing: border-box;
+
+  width: 300px;
 }
 
 .translated {
   position: relative;
   top: 20px;
-  white-space: pre  ;
+  max-width: 340px;
+  white-space: normal;
+  word-wrap: break-word;
 }
 
 .translate-button {
   position: relative;
   top: 15px;
+}
+
+footer {
+  position: relative;
+  top: 50px;
+  font-weight: bold;
 }
